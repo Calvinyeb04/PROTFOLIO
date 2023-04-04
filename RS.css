@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.55)), url(Paris5.jpg);
+  display: flex;
+  justify-content: center;
+    background-size: cover;
+
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container .left_Side {
+  position: relative;
+  background: #003147;
+  padding: 40px;
+  color: white;
+}
+
+.container .right_Side {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+  color: white;
+}
+
+
+.profileText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileText .imgBx {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profileText .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.profileText h2 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.profileText h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.contactInfo{
+  padding-top: 40px;
+}
+
+.title{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.contactInfo ul{
+  position: relative;
+}
+
+.contactInfo ul li{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+
+.contactInfo  ul li .icon{
+   display: inline-block;
+   width: 30px;
+   font-size: 18px;
+   color: #03a9f4
+}
+
+.contactInfo  ul li span{
+   color: #fff;
+   font-weight: 300;
+}
+
+
+
+
+
+
+
+
+.BackgroundInfo{
+  padding-top: 40px;
+}
+
+.title{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.BackgroundInfo ul{
+  position: relative;
+}
+
+.BackgroundInfo ul li{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+
+.BackgroundInfo  ul li .icon{
+   display: inline-block;
+   width: 30px;
+   font-size: 18px;
+   color: #03a9f4
+}
+
+.BackgroundInfo  ul li span{
+   color: #fff;
+   font-weight: 300;
+}
+
+
+
+.container .right_Side{
+   position: relative;
+   background: #fff;
+   padding: 40px;
+}
+
+.EDUCATION{
+   margin-bottom: 0;
+}
+
+.title2{
+   color: #ee3147;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin-bottom: 10px;
+}
+
+
+.EDUCATION li{
+  margin-bottom: 15px;
+}
+
+.EDUCATION h5{
+  color: #03a9fe;
+  font-weight: 300;
+}
+
+
+.EDUCATION h4{
+  color: red;
+  font-weight: 300;
+
+}
+
+
+.EDUCATION h3{
+  color: red;
+  font-weight: 300;
+
+}
+
+.EDUCATION h4{
+  color: black;
+  font-weight: 500;
+
+}
+
+.Skills .precent{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: black;
+  display: block;
+  margin-top: 5px;
+}
+
+
+.Skills .precent div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: skyblue;
+     font-weight: 300;
+
+
+}
+
+
+
+
+.Skills li .text {
+  color: skyblue;
+     font-weight: 300;
+
+}
+
+
+.Skills h3 {
+  color: skyblue;
+     font-weight: 300;
+
+}
+
+
+.WORKEXP ul{
+   display: grid;
+   grid-template-columns: repeat(2,2fr)
+
+}
+
+
+.WORKEXP ul li{
+color: black;
+}
+
+
+
+.WORKEXP h2{
+color: skyblue;
+}
+
+
+
+
+
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* move the navbar to the right */
+}
+
+
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+
+}
+
+.navbar ul li a {
+  position: relative;
+  color: pink;
+}
+
+.navbar ul li a::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background:#009688;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover a::after {
+  width: 100%;
+}
+

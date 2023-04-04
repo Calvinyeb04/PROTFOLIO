@@ -1,0 +1,254 @@
+.banner {
+  position: relative; /* set the position of the parent element to relative */
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.55)), url(CAFE.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.HEADER {
+  color: white;
+  font: var(--font_0);
+  text-align: center;
+  margin-top: 50px; /* adjust this value until the text fits perfectly inside the background */
+}
+
+
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* move the navbar to the right */
+}
+
+
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+
+}
+
+.navbar ul li a {
+  position: relative;
+  color: pink;
+}
+
+.navbar ul li a::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background:#009688;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover a::after {
+  width: 100%;
+}
+
+
+
+.ABOUT {
+  color: white;
+}
+
+
+
+.ABOUT {
+  font: var(--font_0);
+  text-align: center;
+  margin-top: 100px;
+}
+
+.ABOUT h1 {
+color: pink;
+  font: var(--font_0);
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: -2080px;
+}
+
+.ABOUT p {
+  font: italic 35px/1.5 "Fira Sans", serif;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-left: 380px;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+
+
+
+.HEADER {
+  font-size: 100px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%,-50%);
+  color: pink;
+}
+
+span{
+  display: inline-block;
+  font-weight: bolder;
+  animation: mover 6s linear infinite;
+
+}
+
+@keyframes mover{
+   0%{
+   text-shadow: 0 0 30px ;
+    }
+
+    50%{
+   text-shadow: 0 0 30px rgba(34,0,0,30);
+   transform: translateY(30px)
+
+    }
+
+     100%{
+       text-shadow: 0 0 30px rgba(0,43,0,30);
+
+        }
+}
+
+span:nth-child(1)
+{
+  animation-delay: 0.5s;
+}
+
+
+span:nth-child(2)
+{
+  animation-delay: 1s;
+}
+
+span:nth-child(3)
+{
+  animation-delay: 1.5s;
+}
+
+
+span:nth-child(4)
+{
+  animation-delay: 2s;
+}
+
+
+span:nth-child(5)
+{
+  animation-delay: 2.5s;
+}
+
+
+span:nth-child(6)
+{
+  animation-delay: 3s;
+}
+
+span:nth-child(7)
+{
+  animation-delay: 3.5s;
+}
+
+span:nth-child(7)
+{
+  animation-delay: 4s;
+}
+
+
+
+
+.HEADER {
+  width: max;
+  height: 100px;
+  background-color: #404a49;
+    border-radius: 100px;
+
+
+}
+
+.HEADER {
+  font: italic 100px/1.5 "sans-serif
+", serif;
+
+  position: absolute;
+  top: 90px; /* Adjust this value to move the square up or down */
+  width: 1000px;
+  height: 130px;
+  background-color:#bee6e4;
+  border-radius: 100px;
+    margin-left: 95px;
+        margin-top: 100px;
+  background-color: rgba(165, 225, 255, 0.8);
+
+
+
+}
+
+.ABOUT-2 p {
+  font: italic 35px/1.5 "Fira Sans", serif;
+
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-left: 880px;
+  color: white;
+}
+
+
+.ABOUT-3 p {
+  font: italic 35px/1.5 "Fira Sans", serif;
+
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-left: 50px;
+  color: white;
+}
+
+
+.ABOUT-4 p {
+  font: italic 35px/1.5 "Fira Sans", serif;
+
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-left: 1150px;
+  margin-top: -60px;
+  color: white;
+}
+
+
+.AVATAR img {
+    margin: 0 auto;
+    max-width: 700px;
+    margin-left: 1900px;
+    height: 1000px; /* adjust height as needed */
+  }
+  .AVATAR img {
+    margin-top: -29000px; /* adjust margin-top as needed */
+  }
+
+
+
+
+
